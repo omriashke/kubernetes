@@ -131,6 +131,7 @@ imports = []
     stream_server_port = '0'
     stream_idle_timeout = '4h0m0s'
     enable_tls_streaming = false
+    sandbox_image = "registry.k8s.io/pause:3.10"
 
     [plugins.'io.containerd.grpc.v1.cri'.x509_key_pair_streaming]
       tls_cert_file = ''
